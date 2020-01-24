@@ -1,0 +1,94 @@
+body{
+	display: block;
+	background-image: url("../images/chalk.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+#cabezal{
+	height: 95px;
+	position: fixed;
+	display: inline-block;
+	background-color: #2e0d0c;
+	width: 100%;
+	margin-left: -0.53%;
+	margin-top: -0.53%;
+}
+#menu {
+	background: #2e0d0c;
+	margin-left: -1.5%;
+	display: inline-block;
+}
+#menu a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	font-family: 'edwardian script itc';
+	font-size: 45px;
+
+}
+#menu a .linea{
+	width: 2px;
+	height: 20px;
+	background: white;
+	display: inline-block;
+	margin-left: 40px;
+}
+#menu a:hover{
+	color: #ef4339;
+}
+#logo{
+	float: left;
+	max-height: 90%;
+	margin-right: 8%;
+}
+#pizza{
+	display: inline-flex;
+	margin-top: 100px
+}
+
+#pizza div p {
+	font-family: Broadway;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: -20px;
+}
+#pizza div img{
+	width: 800px;
+	margin: 40px;
+	border-radius: 10px;
+}
+#pastas{
+	display: inline-flex;
+	margin-top: -20px	
+}
+#pastas div p {
+	font-family: Broadway;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: -20px;
+}
+#pastas div img{
+	width: 800px;
+	margin: 50px;
+	border-radius: 10px;
+}
+#vinos{
+	display: inline-flex;
+	margin-top: -20px;
+}
+#vinos div p {
+	font-family: Broadway;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: -20px;
+}
+#vinos div img{
+	width: 800px;
+	margin: 50px;
+	border-radius: 10px;
+}

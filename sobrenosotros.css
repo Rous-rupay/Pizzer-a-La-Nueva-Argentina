@@ -1,0 +1,77 @@
+body{
+	display: block;
+	background-image: url("../images/fondosn.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+#cabezal{
+	height: 95px;
+	position: fixed;
+	display: inline-block;
+	background-color: #2e0d0c;
+	width: 100%;
+	margin-left: -0.53%;
+	margin-top: -0.53%;
+}
+#menu {
+	background: #2e0d0c;
+	margin-left: -1.5%;
+	display: inline-block;
+}
+#menu a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	font-family: 'edwardian script itc';
+	font-size: 45px;
+
+}
+#menu a .linea{
+	width: 2px;
+	height: 20px;
+	background: white;
+	display: inline-block;
+	margin-left: 40px;
+}
+#menu a:hover{
+	color: #ef4339;
+}
+#logo{
+	float: left;
+	max-height: 90%;
+	margin-right: 8%;
+}
+#contenido{
+
+}
+.container {
+	display: flex;
+	margin-left: -0.48%;
+	margin-right: 6%;
+}
+
+.container .col1 {
+	width: 30%;
+	padding-left:65%;
+	padding-right: 5%;
+	margin-top:10%;
+}
+
+h2{
+ font-family: Kunstler Script;
+ font-size: 90px;
+ color: black;
+ box-shadow: 6px 2px 2px #7fa998;
+}
+
+p{
+font-family: Arial Narrow;
+ font-size: 22px;
+ color: white;
+ text-align: justify;
+}
